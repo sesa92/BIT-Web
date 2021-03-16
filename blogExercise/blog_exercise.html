@@ -1,0 +1,65 @@
+<!--Blog Exercise
+
+Home Page content
+    ● Create a page with two columns
+    ● Width of the left column is 300px
+    ● Right column stretches to cover the rest of the screen
+    ● Left column content
+        ○ Logo image with height set to 250px
+        ○ Under the logo, there should be a list of links
+        ○ One of the links should be "Map";
+        ○ The link should link to "./map.html"; page
+    ● Right column content
+    ● There should be two posts in form of groups
+    ● The first group content:
+        ○ Title
+        ○ Embedded YouTube video
+    ● The second group content:
+        ○ Title
+        ○ Embedded YouTube video
+
+    Map Page content
+    ● Embedded Google Map on the page
+    ● Link for getting back to the “Home” page-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <table style="border: 1px solid black; border-collapse: collapse;">
+        
+        <tr>
+
+            <th rowspan="2" style="background-color: #7575a3; width: 300px; ">
+                <img src="./images/cambridge.jfif" alt="Cambridge logo;" style="height: 250px;">
+                <ul>
+                    <li><a href="https://www.cam.ac.uk/" target="_blank">Home</a></li>
+                    <li><a href="https://www.undergraduate.study.cam.ac.uk/courses" target="_blank">Courses</a></li>
+                    <li><a href="./map.html" target="_blank">Map</a></li>
+                </ul>
+            </th>
+
+            <th style="width: 100%; background-color: #ffffe6;">
+                <h3>Cambridge</h3> 
+                <iframe style="padding-top: 10px;" width="560" height="315" src="https://www.youtube.com/embed/TrU1-rR7vTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </th>
+        
+        </tr>
+        
+        <tr>
+            <th style="width: 100%; background-color: aqua">
+                <h3>England</h3>
+                <iframe style="padding-top: 10px;" width="560" height="315" src="https://www.youtube.com/embed/joErUdT-bD0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </th>
+        </tr>
+
+    </table>
+
+</body>
+</html>

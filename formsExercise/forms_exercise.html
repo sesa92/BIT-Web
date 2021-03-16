@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form exercise</title>
+</head>
+<body>
+
+    
+<!-- Textarea/Radio/Checkbox
+Create a page that simulates a school quiz, containing multiple questions:
+The first question should contain multiple options out of which the student can select only one
+The second quiz question has multiple options out of which the user can select several
+The third question should require from user to insert some long text -->
+
+<h3>Textarea/Radio/Checkbox</h3>
+
+<form action="#" method="POST">
+    <label for="select_one_answer">
+        Select one answer:<br>
+        <input type="radio" name="select_one_answer" value="one">One</input>
+        <input type="radio" name="select_one_answer" value="two">Two</input>
+        <input type="radio" name="select_one_answer" value="three">Three</input>
+    </label><br><br>
+    <label for="select_multiple_answer">
+        Select multiple answer:<br>
+        <input type="checkbox" name="select_multiple_answer" value="one">One</input>
+        <input type="checkbox" name="select_multiple_answer" value="two">Two</input>
+        <input type="checkbox" name="select_multiple_answer" value="three">Three</input>
+    </label><br><br>
+    <label for="answer">
+        Write your answer:<br>
+    <textarea name="answer" id="answer" cols="20" rows="5" placeholder="Enter your answer"></textarea>
+</form>
+
+<!-- Dropdown/Multiselect
+Create a page that contains three dropdown (selects) in one row
+Dropdowns are used by the user to provide the day, month and year of birth
+The page also contains multiselect box
+Multiselect box contains "categories" out of which the user can select several -->
+
+<h3>Dropdown/Multiselect</h3>
+
+<form action="#" method="POST">
+    <select name="day">
+        <option value="0">Day</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+    </select>
+
+<br>
+
+    <select name="month">
+        <option value="0">Month</option>
+        <option value="1">Jan</option>
+        <option value="2">Feb</option>
+        <option value="3">Mar</option>
+        <option value="4">Apr</option>
+        <option value="5">May</option>
+        <option value="6">Jun</option>
+        <option value="7">Jul</option>
+        <option value="8">Aug</option>
+        <option value="9">Sep</option>
+        <option value="10">Oct</option>
+        <option value="11">Nov</option>
+        <option value="12">Dec</option>
+    </select>
+
+<br>
+
+    <select name="year">
+        <option value="0">Year</option>
+        <option value="1970">1970</option>
+        <option value="1971">1971</option>
+        <option value="1972">1972</option>
+        <option value="1973">1973</option>
+        <option value="1974">1974</option>
+        <option value="1975">1975</option>
+        <option value="1976">1976</option>
+        <option value="1977">1977</option>
+        <option value="1978">1978</option>
+        <option value="1979">1979</option>
+        <option value="1980">1980</option>
+        <option value="1981">1981</option>
+        <option value="1982">1982</option>
+        <option value="1983">1983</option>
+        <option value="1984">1984</option>
+        <option value="1985">1985</option>
+        <option value="1986">1986</option>
+        <option value="1987">1987</option>
+        <option value="1988">1988</option>
+        <option value="1989">1989</option>
+        <option value="1990">1990</option>
+        <option value="1991">1991</option>
+        <option value="1992">1992</option>
+        <option value="1993">1993</option>
+        <option value="1994">1994</option>
+        <option value="1995">1995</option>
+        <option value="1996">1996</option>
+        <option value="1997">1997</option>
+        <option value="1998">1998</option>
+        <option value="1999">1999</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+        <option value="2005">2005</option>
+        <option value="2006">2006</option>
+        <option value="2007">2007</option>
+        <option value="2008">2008</option>
+        <option value="2009">2009</option>
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+    </select>
+
+<br>
+
+    <label for="multiselect">
+        Multiselect: <br>
+        <select name="multiselect" size="3" multiple='multiple'>
+            <option value="first">First</option>
+            <option value="second">Second</option>
+            <option value="third">Third</option>
+            <option value="fourth">Fourth</option>
+            <option value="fifth">Fifth</option>
+        </select>
+    </label> 
+
+</form>
+
+<br>
+<br>
+
+<!-- File input/Submit 
+Create a form used for submitting "Then VS Now" dieting/workout images and a description
+The form should contain two file input fields
+Both of the fields are file inputs
+They are used by the user for uploading the pictures of them and showing what they looked like before they started working out, and how they look now
+The page has to have an area where the user can put a picture description
+At the end of the form, there should be a submit button with text "Send" that is used to submit the form
+The form is submitted on page "handle-upload.html" and the user is redirected to it upon pressing the button
+This page should contain just a "Form submitted successfully"! message -->
+
+<h3>File input / Submit</h3>
+
+
+<form action="handle-upload.html" method="POST">
+
+    <h4>Then</h4>
+    <input type="file" name="then" id="then"><br><br>
+    <textarea name="then_description" id="then_description" cols="25" rows="10" placeholder="Enter description"></textarea><br><br>
+    <h4>Now</h4>
+    <input type="file" name="now" id="now"><br><br>
+    <textarea name="now_description" id="now_description" cols="25" rows="10" placeholder="Enter description"></textarea><br><br>
+    <button id="send">Send</button>
+</form>
+
+<br>
+
+<!-- Reset/Button/Hidden
+Create a form that contains multiple elements (text, textarea, radio)
+At the end of the form, there are two buttons:
+The first one is a reset button used for resetting form
+The second button contains an image and text inside it (it's a submit button) -->
+
+<h3>Reset/Button/Hidden</h3>
+
+<form action="reset_button_hidden.html">
+<br>
+
+    <label for="animal">
+        Select your favourite animal:<br>
+        <input type="radio" name="animal" id="animal" value="Lion">Lion</input>
+        <input type="radio" name="animal" id="animal" value="Tiger">Tiger</input>
+        <input type="radio" name="animal" id="animal" value="Elephant">Elephant</input>
+    </label><br><br>
+    <label for="icecream">
+        Select your favorite icecreams:<br>
+        <input type="checkbox" name="icecream" id="icecream" value="Chocolate">Chocolate</input>
+        <input type="checkbox" name="icecream" id="icecream" value="Vanila">Vanila</input>
+        <input type="checkbox" name="icecream" id="icecream" value="Strawberry">Strawberry</input>
+    </label><br><br>
+    <label for="about_you">
+        Write something in few words about you:<br>
+        <textarea name="About you" cols="20" rows="4" placeholder="About you"></textarea>
+    </label><br><br>
+        <input type="reset" value="reset"><br>
+        <input type="image" src="data:image/png;base64,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" width="100px"
+height="50px">
+</form>
+
+
+
+<!-- HTML5 elements (required, date, email, url, search)
+Create a form for Facebook posts scheduling
+The page should have one form that consists of elements, labels and a submit button
+It should have one required text field (Name)
+A field for date on which the post should be created
+A URL field for a website that will be used for the post
+A field that contains an email address to which an email is sent after publishing the post -->
+
+<h3>HTML5 elements</h3>
+
+<form action="#" method="POST">
+    <label for="name">
+        Name:<br>
+    <input type="text" name="name" id="name" placeholder="Name" required>
+    </label><br><br>
+    <label for="date">
+        Date:<br>
+    <input type="date" name="date" id="date">
+    </label><br><br>
+    <label for="url">
+        URL:<br>
+    <input type="url" name="url" id="url" placeholder="www.example.com" required>
+    </label><br><br>
+    <label for="email">
+        Email adress:<br>
+        <input type="email" name="email" id="email" placeholder="www.example@something.com" size="25px" required>
+    </label><br><br>    
+    <button><a href="./handle-upload.html">Submit</a></button>
+</form>
+
+
+<!--Labels/Grouping
+    ● Creates a form used for catering reservations
+    ● The form contains multiple elements split into groups
+    ● Each element should have a label assigned to it
+        First group
+    ● Name of the group should be &quot;Personal data&quot;
+    ● The first field is for the name
+    ● The second one is for the email address
+    ● The third is for the phone number
+        Second group
+    ● Name of the group should be &quot;Location&quot;
+    ● It should contain fields for:
+        ○ City
+        ○ Street
+        ○ Street number
+        Third group
+    ● Name of the group should be &quot;Event info&quot;
+    ● The first element is dropdown containing the following options:
+        ○ birthday
+        ○ wedding (should be selected by default)
+        ○ company
+    ● The second element is for getting number of expected guests and it’s
+    an input type element
+    ● Placeholder is a number you choose-->
+
+<h3>Labels grouping</h3>
+
+<h5>Catering reservations</h5>
+
+<form action="#" method="POST">
+    <fieldset>
+    <legend>Personal data</legend>
+
+        <label for="name">
+            Name:<br>
+            <input type="text" name="name" id="name"><br>
+        </label>
+        <label for="email">
+            Email adress:<br>
+            <input type="email" name="email" id="email"><br> 
+        </label>    
+        <label for="phone_number">
+            Phone number:<br>
+            <input type="number" name="phone_number" id="phone_number"><br>
+        </label>
+
+    </fieldset><br>
+
+    <fieldset>
+        <legend>Location</legend>
+
+            <label for="city">
+                City:<br>
+                <input type="text" name="city" id="city"><br>
+            </label>
+            <label for="street">
+                Street:<br>
+                <input type="text" name="street" id="street"><br>
+            </label> 
+            <label for="street_number">
+                Street number:<br>
+                <input type="number" name="street_number" id="street_number"><br>
+            </label>
+
+            </fieldset><br>
+        
+        <fieldset>
+            <legend>Event info</legend>
+
+                <label for="select">
+                    Event:<br>
+                <select name="select" id="select">
+                    <option value="birthday">Birthday</option>
+                    <option value="wedding" selected="select">Wedding</option>
+                    <option value="company">Company</option>
+                </select><br><br>
+                <label for="guests">
+                    Number of guests (50-300):<br>
+                    <input type="number" name="guests" id="guests" min="50" max="300" placeholder="50-300">
+                </label>
+
+        </fieldset><br>
+</form>
+
+<!--Text/Password Fields
+    ● Create a page that contains a login form
+    ● The form should contain username and password fields
+    ● Add text to indicate which field is intended for what
+    ● Login form should contain "forgot password" link
+    ● When the user clicks on the link, they are redirected to a new "Reset password" page
+    ● Reset page contains:
+        o an input text field that user uses to provide an email address
+        o "Send" link that redirects the user back to the login form-->
+
+<h3>Login form</h3>
+
+<form action="#" method="POST">
+    <label for="username">
+        Username:   
+        <input type="text" name="username" id="username"  placeholder="Enter Username" required><br><br>
+    </label>
+    <label for="password">
+        Password:   
+        <input type="password"  name="password" id="password" placeholder="Enter Password" required><br><br>
+    </label>
+    <button type="submit">Login</button><br><br>
+    <a href="./reset_password.html">Forgot password</a>  
+</form>
+
+
+</body>
+
+</html>
+
+
