@@ -1,0 +1,56 @@
+<!--Shadow/Pseudo-Classes
+Create a page with a list of links to some websites
+Shadow
+    ● Set the default color for that list
+    ● Add text shadow to text of all the list elements
+    Pseudo-Classes
+    ● Each link that is not clicked yet should be red
+    ● Each visited link should be black
+    ● Hovering over text should make it green
+    ● Clicking and holding the link should make it blue-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+
+        ul li {
+            text-shadow: -4px -2px 0px  rgba(160, 160, 160, 0.7);
+            line-height: 150%;
+        }
+
+        a:link {
+            font-size: 15px;
+            color: red;
+        }
+
+        a:visited {
+            color: black;
+        }
+
+        a:hover {
+            color: green;
+        }
+
+        a:active {
+            color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <ul>
+        <li><a href='https://www.facebook.com/'>Facebook</a></li>
+        <li><a href='https://www.youtube.com/'>Youtube</a></li>
+        <li><a href='https://www.google.rs/'>Google</a></li>
+        <li><a href='https://www.instagram.com/'>Instagram</a></li>
+        <li><a href='https://www.linkedin.com/'>Linkedin</a></li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!--@font-face
+Take some time googling and find websites that provide fonts
+Downloading and including a font:
+    ○ Go to Google Fonts and download some font
+    ○ Include that font on page
+    ○ Apply the font to first paragraph
+
+Font via url from remote server:
+    ○ Go to Google Fonts and get the link for the font
+    ○ Include that font on the page using a link
+    ○ Apply the font to the page title-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <title>Font-face</title>
+
+    <style>
+
+        @font-face {
+            font-family: 'SyneMono';
+            src: url(./SyneMono-Regular.ttf);
+        }
+
+        h1 {
+            font-family: 'Pangolin', cursive;
+        }
+
+        p {
+            font-family: 'SyneMono', monospace;
+        }
+        
+    </style>
+
+</head>
+<body>
+
+    <h1>Page title</h1>
+    
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus cupiditate, quaerat facere labore optio inventore sint sequi perspiciatis, accusantium quisquam dolorum laboriosam minus odio nihil exercitationem explicabo incidunt eius ipsa!</p>
+   
+
+</body>
+</html>

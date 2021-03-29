@@ -1,0 +1,56 @@
+<!--Opacity VS RGBA
+    ● Use the previously created HTML structure
+    ● Apply 50% opacity to the first element
+    ● Set bg-color with 50% transparency (rgba) on the second element
+    ● Add picture to the div element that has opacity defined
+    ● Add picture to the div element that has rgba defined-->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>opacity vs rgba</title>
+        <style>
+
+            .first {
+                color: blue;
+                background-color: #FFFF00;
+            }
+    
+            .second {
+                color: rgb(236, 63, 19);
+                background-color: #1a1aff;
+            }
+    
+            .third {
+                color: #33ffad;
+                background-color: grey
+            }
+
+            .first_div {
+                opacity: 50%;
+            }
+            
+            .second_div {
+                background: rgba(0, 0, 0, 0.5);
+            }
+        </style>
+    </head>
+    <body>
+        
+    <p class="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolorum, tenetur ea, earum saepe at perferendis maxime sint reiciendis inventore, aliquam est totam accusamus repudiandae nisi voluptatem. Dolor, ducimus voluptates. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero impedit dolorum nihil nostrum obcaecati quas doloribus nulla eligendi voluptates nesciunt, ducimus nisi quod possimus mollitia, earum voluptatibus aspernatur quibusdam quae.</p>
+    <p class="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, cupiditate consequuntur quibusdam vero accusantium hic laudantium aliquid distinctio vitae laboriosam reiciendis atque labore. Dolores nihil error delectus culpa eius et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, et iure nobis perspiciatis accusantium iste, optio veritatis quam aliquam consequatur quae. Amet consequuntur omnis aperiam nostrum eius magnam voluptas vel!</p>
+    <p class="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum libero totam nostrum soluta, alias consequatur deleniti dolores sunt, consectetur, expedita nobis fugit sit. Quaerat tenetur corrupti reiciendis sequi possimus tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem corporis doloribus ab, quidem reiciendis fuga! Repellat at harum molestiae velit laudantium natus ex assumenda voluptates adipisci, itaque quo reiciendis esse!</p>
+
+        <div class="first_div">
+            <img src="https://foreignpolicy.com/wp-content/uploads/2018/10/4632679.jpg?resize=768,503&quality=90" alt="fighter jet">
+        </div>
+
+        <div class="second_div">
+            <img src="https://img.militaryaerospace.com/files/base/ebm/mae/image/2019/05/16x9/drone_wingmen_23_May_2019.5ce6482333313.png?auto=format&w=720" alt="fighter jet">
+        </div>
+
+    </body>
+    </html>

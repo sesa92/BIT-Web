@@ -1,0 +1,62 @@
+<!--Font size/weight/style
+Use HTML/CSS from the previous example
+Apply global font size/weight
+Override the global font for the first paragraph (apply some other font)
+Apply “oblique” style to the text in the second paragraph
+Create a span element somewhere inside the third paragraph
+Increase weight of the text inside the span and make it italic-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font size/weight/style</title>
+    <style>
+
+        body {
+            font-size: 25px;
+        }
+
+        .font_first {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .font_second {
+            font-style: oblique;
+        }
+
+        .font_third {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .font_first q {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .font_second q {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .font_third q {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .font_third span {
+            font-weight: 1000;
+            font-style: italic;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <p class="font_first">Lorem ipsum dolor sit amet consectetur adipisicing elit. <q>Odio inventore ullam, tempore officia debitis laborum quibusdam saepe reiciendis</q> alias neque vero, asperiores perferendis beatae, magnam tenetur facere distinctio enim sed.</p>
+    <p class="font_second">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ipsa consequuntur <q>excepturi autem! Nisi quam, velit esse quaerat, officiis corporis itaque a commodi</q></excepturi> incidunt architecto explicabo earum nulla reprehenderit adipisci!</p>
+    <p class="font_third">Lorem ipsum dolor sit <q>amet consectetur adipisicing elit.</q> Quod quasi iste quam, <span>quidem amet quaerat sit provident velit aperiam, tenetur ipsa beatae eveniet, pariatur voluptatem quas!</span> Laboriosam mollitia quis reprehenderit?</p>
+
+</body>
+</html>
