@@ -1,0 +1,50 @@
+<!--Size
+Create a page containing two paragraphs.
+The first paragraph should have a yellow background
+The second paragraph should have a red background
+Add a lot of text to both of them
+
+    Fixed size
+The first paragraph has width of 400px and height of 500px
+The second should have 600px width and 300px height
+Paragraph text should not overflow the box
+
+    Dynamic size
+Max width of the first paragraph should be 300px
+Max height of the second one should be 200px
+The first paragraph text should be cut if it's bigger than the box
+The second paragraph text can overflow the paragraph (text can be bigger than the paragraph box)-->   
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size</title>
+    <style>
+
+        .one {
+            background-color: yellow;
+            width: 400px;
+            height: 500px;
+            overflow: hidden;
+            max-width: 300px;
+        }
+
+        .two {
+            background-color: red;
+            width: 600px;
+            height: 300px;
+            max-height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <p class = 'one'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptatibus, quidem porro quisquam inventore amet placeat velit non? Officia excepturi eos sed totam sequi placeat aliquid nulla sunt repudiandae unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe neque cumque beatae incidunt minus dolorum obcaecati dicta excepturi non! Deleniti officiis excepturi ipsam ad iusto veritatis, sapiente eaque necessitatibus. Unde. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti qui adipisci praesentium at ex dolorum eveniet quis vel earum. Vero quod tempora distinctio similique quasi temporibus possimus earum officia quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, similique sed voluptatibus hic repellat magni neque dolor veniam necessitatibus, quas porro vitae asperiores sequi ipsam dolorem nisi, vel sint? Dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae veniam ducimus qui perferendis officia odit mollitia distinctio molestias dolorum aut inventore nulla nobis et, rem ea in quibusdam adipisci natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias mollitia ex est quas voluptas qui nisi ipsam rerum labore facere illo asperiores repellat voluptatem ut, repudiandae odio exercitationem itaque modi?</p>
+    <p class = 'two'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, aut. Fugit nulla sapiente, ullam quibusdam earum ex nobis beatae ipsa a blanditiis consequuntur provident quasi cumque quod non itaque. Recusandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nulla fugiat repudiandae consequatur voluptas explicabo, quae hic totam nesciunt. Labore quos ratione totam aperiam quibusdam porro animi magnam repudiandae repellat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam labore eius, magnam, nostrum consectetur est veritatis distinctio itaque asperiores fugiat unde eligendi incidunt ullam dolores tempora ratione cum alias eveniet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laudantium, reiciendis aliquam quasi, dolore a veniam consequatur culpa explicabo obcaecati optio, repellendus recusandae et officia? Quae sint tenetur nobis voluptatum. lorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit impedit ab autem sed assumenda accusantium omnis, maxime voluptas laboriosam voluptates, reprehenderit ipsam atque eaque esse, qui cumque enim recusandae.</p>
+
+</body>
+</html>

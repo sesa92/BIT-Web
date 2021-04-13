@@ -1,0 +1,81 @@
+<!--Hide/Show | Box Shadows | Rounded Corners
+    ● Hide/Show
+        ○ Hide the middle paragraph from the previous example
+        ○ The third paragraph should be hidden
+    ● Box Shadow
+        ○ Add a main title on the page using h1 element
+        ○ Set width of the title to 960px
+        ○ Position the heading box to the center of the page
+        ○ The text in the heading should be centered
+        ○ Add top and bottom padding of 50px and do that for the top/bottom margins also
+        ○ Define box background color, and font color
+        ○ Include some fancy font for the title
+        ○ Apply box shadow to the heading box
+    ● Rounded Corners
+        ○ Round the corners on the heading box (try different radiuses)-->
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Hide/Show | Box Shadows | Rounded Corners</title>
+            <style>
+        
+                p {
+                    padding: 15px;
+                    background-color: grey;
+                    border-width: 5px;
+                }
+        
+                .one, .three {
+                    border: dashed red;
+                    padding: 50px;
+                }
+        
+                .two {
+                    visibility: hidden;
+                    border: solid green;
+                    padding-top: 50px;
+                    width: 400px;
+                    margin: 0 auto;
+                }
+        
+                .one {
+                    width: 300px;
+                    margin: 50px;
+                }
+        
+                .three {
+                    width: 200px;
+                    margin-left: 100px;
+                    visibility: hidden;
+                }
+
+                .title {
+                    width: 960px;
+                    padding: 50px 0px;
+                    margin: 50px auto;
+                    text-align: center;;
+                    background-color: aquamarine;
+                    color: blueviolet;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    box-shadow: 10px 15px 20px 3px rgba(255,34,92,0.8);
+                    -webkit-box-shadow: 10px 15px 20px 3px rgba(255,34,92,0.8); 
+                    border-radius: 5px 10px 15px 20px;
+                }
+                
+            </style>
+        
+        </head>
+        <body>
+
+            <h1 class="title">Tittle</h1>
+            
+            <p class="one">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati omnis nulla maxime hic commodi accusamus ad, vitae neque placeat maiores tempora ducimus temporibus fugit? Quas doloribus consectetur quaerat maxime iste.</p>
+            <p class="two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit expedita dolor repudiandae accusamus atque obcaecati natus, quia non officia aliquid eum quidem voluptates unde? Perspiciatis molestiae dicta porro delectus corrupti.</p>
+            <p class="three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat natus accusantium amet voluptas, molestias velit repellendus, fuga voluptate possimus ad ea, repudiandae dignissimos facere maiores nihil ut quidem! Ea, amet?</p>
+        
+        </body>
+        </html>
