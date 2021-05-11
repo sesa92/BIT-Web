@@ -1,0 +1,55 @@
+.one, 
+.two, 
+.three {
+    width: 200px;
+    height: 200px;
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: yellow;
+}
+
+.three {
+    background-color: blue;
+}
+
+.five {
+    position: relative;
+    top: -170px;
+    left: 30px;
+    z-index: 1;
+}
+
+.six {
+    position: relative;
+    top: -340px;
+    left: 60px;
+    z-index: 2;
+}
+
+.div_absolute {
+    position: relative;
+}
+
+.seven {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+.eight {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    z-index: 1;
+}
+
+.nine {
+    position: absolute;
+    top: 160px;
+    right: 100px;
+}

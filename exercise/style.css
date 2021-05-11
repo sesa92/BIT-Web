@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: navy;
+    background-color: #eee;
+}
+
+h1 {
+    font-size: 26px;
+    font-variant: small-caps;
+    text-align: right;
+    background-color: navy;
+    color: #ccf;
+    padding: 4px 10px;
+    margin-top: 0px;
+    margin-bottom: 0.8em;
+    border-width: 8px 0px;
+    border-style: solid;
+    border-color: #88c;
+}
+
+h3 {
+    border-bottom: 5px dotted #88d;
+    width: 90%;
+    margin: 1em auto;
+}
+
+p {
+    width: 80%;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-left: 10px solid #ccccee;
+    padding-left: 10px;
+}
+
+.comment {
+    width: 30%;
+    margin-left: auto;
+    text-align: left;
+    padding: 0.8em;
+    font-size: 0.8em;
+    margin-right: 5px;
+    border-width: 2px 4px 4px 2px;
+    border-style: solid;
+    border-color: #990000;
+    background-color: #ffffdd;
+    color: #990000;
+}
+
+table {
+    margin: 1em auto;
+    border: 4px solid black;
+    background-color: #fde;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 2px solid black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 3px 9px;
+}
+
+th {
+    border: 1px solid #fde;
+    padding: 3px 9px;
+}
+
+.first_row {
+    background-color: #444466;
+    color: #ffffcc;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+div {
+    margin: 1em auto;
+    text-align: center;
+    width: 400px;
+    border: 15px double #226600;
+    background-color: #ddffcc;
+    padding: 10px;
+}
+
+.block {
+    all: initial;
+    font-weight: bold;
+    color: #226600;
+}
+
+ol {
+    width: 70%;
+    margin: 1em auto;
+    font-family: serif cursive;
+    font-style: italic;
+}
+
+ol li a {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}

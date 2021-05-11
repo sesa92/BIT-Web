@@ -1,0 +1,109 @@
+<!--Table
+    • Create a table with five columns and 5 rows
+    • Table is intended to display phone specifications
+    • The table should be centered on the page
+    • Table header row should be red
+    • The second column should contain images whose height should be 100px
+    • Each cell should have top and bottom padding of 10px
+    • Row background color changes to yellow on hover
+    • Extra task: Each odd row should have gray bg coloro-->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        table {
+            width: 40%;
+            margin: 0 auto;
+            border: 1px solid black;
+            text-align: left;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px 15px;
+        }
+    
+        #t1 {
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+
+        tr:nth-child(odd) {
+            background-color: lightgrey;
+        }
+
+        tr:hover {
+            background-color: rgb(209, 209, 12);
+        }
+
+        table img {
+            height: 100px;
+        }
+    
+    </style>
+    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table_exercise</title>
+    </head>
+    <body>
+        <table>
+            
+            <tr id="t1">
+                <th>Phone name</th>
+                <th>Phone Image</th>
+                <th>Ram memory</th>
+                <th>Camera</th>
+                <th>Internal memory</th>
+            </tr>
+            <tr>
+                <td>Samsung S21</td>
+                <td><img src= "./images/Samsung s21.jfif"></td>
+                <td>8gb</td>
+                <td>64Mpx</td>
+                <td>128/256gb</td>
+            </tr>
+            <tr>
+                <td>Iphone 12</td>
+                <td><img src ="./images/Iphone 12.jfif"></td>
+                <td>4gb</td>
+                <td>12Mpx</td>
+                <td>64/128/256gb</td>
+            </tr>
+            <tr>
+                <td>Huawei Mate 40</td>
+                <td><img src= "./images/Huawei mate 40.jfif"></td>
+                <td>8gb</td>
+                <td>50Mpx</td>
+                <td>128/256gb</td>
+            </tr>
+            <tr>
+                <td>Motorola Edge+</td>
+                <td><img src="./images/Motorola edge plus.jfif"></td>
+                <td>12gb</td>
+                <td>108Mpx</td>
+                <td>256gb</td>
+            </tr>
+            <tr>
+                <td>Xiaomi Mi 11 Ultra</td>
+                <td><img src="./images/Xiaomi mi 11 ultra.jfif"></td>
+                <td>8/12gb</td>
+                <td>50Mpx</td>
+                <td>256/512GB</td>
+            </tr>
+
+    </table>
+
+</body> 
+   
+</html>

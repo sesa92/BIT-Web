@@ -1,0 +1,114 @@
+<!--Forms | Cursor
+Form Elements Style
+    • Style the form until it looks like the form shown in the picture
+    • Cursor
+        • Set the cursor to look different when hovering over different form elements
+        • Use a custom image for the cursor when hovering over the submit button-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form CSS</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            border: 1px solid black;
+            margin: 20px auto; 
+            width: 350px; 
+            height: 500px;
+            background-color: rgb(248, 246, 246);
+            padding: 40px;
+        }
+
+
+        tr th {
+            text-align: center;
+            border-bottom: 1px solid lightgrey;
+            color: darkblue;
+            font-size: 30px;
+            padding: 5px 0px;
+        }
+
+        span {
+            color: rgb(180, 180, 10);
+        }
+
+        tr td input {
+            margin: 10px 0px;
+            -webkit-box-shadow: 3px 5px 13px -4px #000000; 
+            box-shadow: 3px 5px 13px -4px #000000;
+            border-radius: 3px;
+            padding: 5px;
+            width: 95%;
+        }
+
+        button {
+            width: 100%;
+            color: white;
+            background-color: red;
+            text-align: center;
+            padding: 5px;
+            margin: 10px 0px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            cursor: url(./cursor.gif), auto;
+        }
+
+        label:hover {
+            cursor: pointer;
+        }
+
+        input:hover {
+            cursor: progress;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <th>Form<span>Get</span></th>
+        </tr>
+        <tr>
+            <td><label for="name">Full Name</label></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="name" name="name" placeholder="Full Name"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+        </tr>
+        <tr>
+            <td><input type="email" id="email" name="email" placeholder="Email"></td>
+        </tr>
+        <tr>
+            <td><label for="number">Contact Number</label></td>
+        </tr>
+        <tr>
+            <td><input type="number" id="number" name="number" placeholder="Contact Number"></td>
+        </tr>
+        <tr>
+            <td><label for="adress">Adress</label></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="adress" name="adress" placeholder="Adress"></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Submit</button></td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
