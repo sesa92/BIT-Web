@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,YAAY,CAAC;ECDT,WAAW,EAAE,YAAY;CDG5B;;AAED,AAAA,WAAW,CAAC;ECDR,UAAU,EAAE,WAAW;CDG1B",
+    "sources": [
+        "style.scss",
+        "_mixins.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

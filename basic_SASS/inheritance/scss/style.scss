@@ -1,0 +1,17 @@
+@import './_variable.scss';
+
+.one {
+    border: $blue_border;
+}
+
+.two {
+    border: $green_border;
+}
+
+.three {
+    border: $yellow_border;
+}
+
+p {
+    width: $p_width;
+}

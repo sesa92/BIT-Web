@@ -1,0 +1,7 @@
+@mixin text_shadow {
+    text-shadow: 3px 7px blue;
+}
+
+@mixin box_shadow {
+    box-shadow: 2px 3px red;
+}

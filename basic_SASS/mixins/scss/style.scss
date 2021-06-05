@@ -1,0 +1,9 @@
+@import './mixins';
+
+.text_shadow {
+    @include text_shadow();
+}
+
+.box_shadow {
+    @include box_shadow();
+}

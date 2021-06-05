@@ -1,0 +1,9 @@
+.text_shadow {
+  text-shadow: 3px 7px blue;
+}
+
+.box_shadow {
+  -webkit-box-shadow: 2px 3px red;
+          box-shadow: 2px 3px red;
+}
+/*# sourceMappingURL=style.css.map */

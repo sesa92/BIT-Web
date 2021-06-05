@@ -1,0 +1,16 @@
+.one {
+  border: 2px solid blue;
+}
+
+.two {
+  border: 2px dotted green;
+}
+
+.three {
+  border: 2px dashed yellow;
+}
+
+p {
+  width: 600px;
+}
+/*# sourceMappingURL=style.css.map */
