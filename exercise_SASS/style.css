@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 1080px;
+}
+
+nav img {
+  width: 100px;
+}
+
+nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 50px;
+}
+
+nav ul {
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+header {
+  position: relative;
+}
+
+header img {
+  width: 100%;
+}
+
+header h1 {
+  color: #fff;
+  position: absolute;
+  font-size: 30px;
+  top: 78%;
+  left: 67%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: right;
+}
+
+.onama article {
+  padding-left: 85px;
+  padding-right: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.onama article .myline, .onama article h2:after, .onama article .usluge h2:after, .usluge .onama article h2:after, .onama article .noveUsluge h2::after, .noveUsluge .onama article h2::after, .onama article .preporuke h2::after, .preporuke .onama article h2::after {
+  display: block;
+  content: '';
+  background-color: #0000ff;
+  width: 135px;
+  height: 8px;
+  margin: 5px auto;
+}
+
+.onama article h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+.onama article p {
+  font-size: 14px;
+  color: grey;
+}
+
+.onama article p strong {
+  color: black;
+}
+
+.onama article h3 {
+  font-size: 23px;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.onama article ul {
+  padding: 0px;
+}
+
+.onama article ul li {
+  list-style-type: none;
+  color: grey;
+}
+
+.onama article ul li:before {
+  content: "\1F7E6";
+  color: #a5e9ff;
+  padding-right: 5px;
+}
+
+.onama article button {
+  padding: 10px 20px;
+  color: white;
+  background-color: #2525a3;
+  border: none;
+  width: 150px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.usluge {
+  border: 1px solid #33bef2;
+  background-color: #33bef2;
+  border-radius: 210px 0 0 0;
+  height: 185px;
+}
+
+.usluge .myline, .usluge .onama article h2:after, .onama article .usluge h2:after, .usluge h2:after, .usluge .noveUsluge h2::after, .noveUsluge .usluge h2::after, .usluge .preporuke h2::after, .preporuke .usluge h2::after {
+  display: block;
+  content: '';
+  background-color: #0000ff;
+  width: 170px;
+  height: 8px;
+  margin: 5px auto;
+}
+
+.usluge h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.usluge .container {
+  margin: 0 auto;
+}
+
+.usluge .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.usluge .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 12px;
+}
+
+.usluge p {
+  color: #fff;
+  font-size: 12px;
+}
+
+.noveUsluge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 85px;
+  padding-right: 45px;
+}
+
+.noveUsluge .myline, .noveUsluge .onama article h2:after, .onama article .noveUsluge h2:after, .noveUsluge .usluge h2:after, .usluge .noveUsluge h2:after, .noveUsluge h2::after, .noveUsluge .preporuke h2::after, .preporuke .noveUsluge h2::after {
+  display: block;
+  content: '';
+  background-color: #0000ff;
+  width: 135px;
+  height: 8px;
+  margin: 5px auto;
+}
+
+.noveUsluge h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.noveUsluge p {
+  color: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.noveUsluge button {
+  padding: 10px 20px;
+  color: white;
+  background-color: #2525a3;
+  border: none;
+  width: 150px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.preporuke {
+  border: 1px solid #33bef2;
+  background-color: #33bef2;
+  border-radius: 0 210px 0 0;
+  height: 330px;
+}
+
+.preporuke .myline, .preporuke .onama article h2:after, .onama article .preporuke h2:after, .preporuke .usluge h2:after, .usluge .preporuke h2:after, .preporuke .noveUsluge h2::after, .noveUsluge .preporuke h2::after, .preporuke h2::after {
+  display: block;
+  content: '';
+  background-color: #0000ff;
+  width: 170px;
+  height: 8px;
+  margin: 5px auto;
+}
+
+.preporuke h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.preporuke .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.preporuke .container article img {
+  height: 100px;
+  width: 165px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.preporuke .container article h4 {
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.preporuke .container article p {
+  text-align: center;
+  padding: 0 15px;
+  font-size: 12px;
+}
+
+footer {
+  height: 40px;
+  background-color: #0b223d;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
