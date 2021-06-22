@@ -1,0 +1,36 @@
+<!--
+    Super Mario
+    ○ Create Super Mario emulator
+    ○ On right arrow click, Mario should run to the right
+
+        ■ Running animation
+        ■ Ground should move while Mario is running
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario</title>
+    <style>
+        div {
+            background-image: url(./bg.jpg);
+            background-repeat: repeat-x;
+            background-size: contain;
+            position: relative;
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- <img id = 'bg' src="./bg.jpg" alt="" style="position: relative; height: 100%; width: 100%;"> -->
+        <img id = 'mario' src="./mario.png" width="70px" alt="" style="position: absolute; bottom: 17%; left: 45%; z-index: 1;">
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!--
+    Attributes
+Create a form that contains multiple input elements with labels.
+Some of those elements should be required.
+Create a function that validates the form.
+The function checks each input element that belongs to the form.
+If the element has the required attribute and no data, it should get red borders.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributes</title>
+</head>
+<body>
+    
+    <form action="#">
+        <label for="name">Name
+            <input type="text" id="name" required>
+        </label> <br>
+        <label for="surname">Surname
+            <input type="text" id="surname" required>
+        </label> <br>
+        <label for="phone">Phone
+            <input type="number" id="phone">
+        </label> <br>
+        <label for="city">City
+            <input type="text" id="city" required>
+        </label><br>
+        <input type="submit" value="Send"">
+    </form>
+
+<script src="./script.js"></script>
+</body>
+</html>
